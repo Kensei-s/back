@@ -1,0 +1,42 @@
+# Binaires et fichiers compilés
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Répertoire `vendor` (utilisé par certaines versions de Go, mais pas nécessaire si tu utilises des modules Go)
+vendor/
+
+# Modules Go
+go.sum
+go.work
+go.work.sum
+
+# Dossiers spécifiques à l'IDE
+.vscode/
+.idea/
+
+# Fichiers temporaires système
+.DS_Store
+Thumbs.db
+
+# Logs et fichiers temporaires
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Caches Go
+go-build/
+
+# Fichier de configuration des variables d'environnement
+.env
+
+# Optionnel : ignorer les fichiers .env.* si tu utilises plusieurs environnements (ex. .env.production, .env.local)
+.env.*
+
+# Clés SSH ou informations sensibles
+*.pem
+*.key
